@@ -1,0 +1,345 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.navbar{
+	background: rgba(0, 255, 0, .2);
+}
+.navbar-brand{
+	font-size: 2rem;
+	font-family: "Moon Dance", cursive;
+	font-weight:700;	
+	color: tomato;
+}
+.navbar-brand:hover{
+	color: #000;
+}
+.nav-link{
+	color: #000;
+	font-family: "Rubik", sans-serif;
+	margin: 0px 10px 0px;
+	text-transform: uppercase;
+}
+.nav-link:hover{
+	color:tomato;
+}
+.search{
+	padding: 10px 25px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000;
+    background: rgba(0, 255, 0, .1);
+    border: 2px solid tomato;
+    border-radius: 60px;
+}
+.submit{
+	padding: 10px 10px;
+	margin: 0px 0px 0px -77px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #eee;
+    background: tomato;
+    border: 2px solid tomato;
+    border-radius: 60px;
+}
+.submit:hover{
+	background: tomato;
+	color: #000;
+}
+/*===========
+  banner 
+===============*/
+.banner{
+	width: 100%;
+	height: 100vh;
+	background: url("../images/bg.jpg")no-repeat;
+	background-size: cover;
+	background-position:center;
+}
+.banner .nature{
+ width: 100%;
+ text-align: center;
+ margin: 50px 0px 0px 0px;
+ padding: 50px 0px 0px 0px;
+}
+.banner .nature h1{
+	width: 71%;
+	padding: 0px 0px 0px 200px;
+	font-size: 52px;
+	line-height: 1.3em;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #000;
+
+}
+
+.banner .nature p{
+	width: 76%;
+	padding: 43px 0px 0px 250px;
+	font-size: 32px;
+	line-height: 1.7em;
+	font-weight: 400;
+	color: rgb(0, 122, 124);
+
+}
+.banner .nature a{
+    padding: 10px 30px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #eee;
+    background: tomato;
+    border: 2px solid tomato;
+    border-radius: 60px;
+
+}
+.banner .nature a:hover{
+	background: #fff;
+	color: tomato;
+}
+
+/*------------organic-----------*/
+.organic{
+	width: 100%;
+	padding: 30px 0px;
+}
+.organic img{
+	width: 450px;
+	height: 350px;
+	padding: 0px 0px 0px 20px;
+}
+
+.organic h6{
+
+	padding: 0px 0px 0px 78px;
+	font-size: 28px;
+	line-height: 1.3em;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #000;
+
+}
+/*--------about--------*/
+.about{
+	width: 100%;
+	padding: 30px 0px;
+}
+
+.about img{
+	width: 397px;
+	height: 345px;
+}
+.about h1{
+	font-size: 54px;
+	line-height: 1.3em;
+	text-transform:capitalize;
+	font-weight: 600;
+	color: #000;
+}
+.about h6{
+  font-size: 28px;
+	line-height: 1.3em;
+	text-transform: capitalize;
+	font-weight: 500;
+	color: tomato;
+}
+
+.about p{
+	font-size: 12px;
+	line-height: 1.7em;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #000;
+
+}
+.about button{
+  padding: 10px 30px ;
+  border: 1px solid tomato;
+  border-radius: 70px;
+  color: #fff;
+  background: tomato;
+  text-transform: capitalize;
+}
+.about button:hover{
+	color: tomato;
+	background: #FFF;
+}
+
+/*-------product--------*/
+.product{
+	width: 100%;
+	padding: 30px 0px;
+}
+
+.product img{
+	width: 265px;
+	height: 345px;
+}
+.product h1{
+	font-size: 54px;
+	line-height: 1.3em;
+	text-transform:capitalize;
+	font-weight: 600;
+	color: #000;
+}
+.product h6{
+  font-size: 28px;
+	line-height: 1.3em;
+	text-transform: capitalize;
+	font-weight: 500;
+	color: tomato;
+}
+
+.product p{
+	font-size: 26px;
+	line-height: 1.7em;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #000;
+
+}
+.product button{
+  padding: 10px 30px ;
+  border: 1px solid tomato;
+  border-radius: 70px;
+  color: #fff;
+  background: tomato;
+  text-transform: capitalize;
+}
+
+.product button:hover{
+	color: tomato;
+	background: #FFF;
+}
+.card:hover{
+	box-shadow: -1px -3px 36px -9px rgba(0,0,0,0.75);
+	-webkit-box-shadow: -1px -3px 36px -9px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px -3px 36px -9px rgba(0,0,0,0.75);
+  transition: 0.5s;
+}
+
+/*------shop--------------*/
+/*-------product--------*/
+.shop{
+	width: 100%;
+	padding: 30px 0px;
+}
+
+.shop img{
+	width: 165px;
+	height: 282px;
+}
+.shop h1{
+	font-size: 54px;
+	line-height: 1.3em;
+	text-transform:capitalize;
+	font-weight: 600;
+	color: #000;
+}
+.shop h6{
+  font-size: 28px;
+	line-height: 1.3em;
+	text-transform: capitalize;
+	font-weight: 500;
+	color: tomato;
+}
+
+.shop p{
+	font-size: 26px;
+	line-height: 1.7em;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #000;
+
+}
+.shop button{
+  padding: 10px 30px ;
+  border: 1px solid tomato;
+  border-radius: 70px;
+  color: #fff;
+  background: tomato;
+  text-transform: capitalize;
+}
+
+.shop button:hover{
+	color: tomato;
+	background: #FFF;
+}
+.card:hover{
+	box-shadow: -1px -3px 36px -9px rgba(0,0,0,0.75);
+	-webkit-box-shadow: -1px -3px 36px -9px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px -3px 36px -9px rgba(0,0,0,0.75);
+  transition: 0.5s;
+}
+.food{
+	width: 100%;
+	height: 130vh;
+	background: url("../images/w.jpg")no-repeat;
+	background-size: cover;
+	background-position:center;
+}
+
+.food h1{
+	font-size: 54px;
+	line-height: 1.3em;
+	text-transform:capitalize;
+	font-weight: 600;
+	color: #000;
+}
+.food h6{
+  font-size: 28px;
+	line-height: 1.3em;
+	text-transform: capitalize;
+	font-weight: 500;
+	color: tomato;
+}
+.food  button{
+  padding: 10px 30px ;
+  border: 1px solid tomato;
+  border-radius: 70px;
+  color: #fff;
+  background: tomato;
+  text-transform: capitalize;
+}
+
+.food  button:hover{
+	color: tomato;
+	background: #FFF;
+}
+.news{
+	background-color: #000;
+	color: #fff;
+}
+.news  button{
+  padding: 10px 30px;
+  border: 1px solid tomato;
+  border-radius: 70px;
+  color: #fff;
+  background: tomato;
+  text-transform: capitalize;
+}
+
+.news button:hover{
+	color: tomato;
+	background: #FFF;
+}
+.news input{
+	height: 45px;
+	width: 55%;
+	border: 2px solid #fff;
+	outline: none;
+	background: #000;
+	color: #fff;
+	margin-top: 20px;
+	font-weight: 600;
+}
+
+.news::placeholder{
+	color: #fff;
+}
+.news{
+	color: #fff;
+	margin: 0;
+
+}
+
